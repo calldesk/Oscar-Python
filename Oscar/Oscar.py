@@ -40,7 +40,6 @@ class Oscar:
     return str(hash(json.dumps(job)))
 
   def suggest(self, experiment):
-    print json.dumps(experiment)
     result = self.call('/suggest', {
                        'experiment' : json.dumps(experiment)
                        })
