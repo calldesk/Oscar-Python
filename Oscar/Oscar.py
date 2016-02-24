@@ -10,7 +10,7 @@ class ClientException(Exception):
 class Oscar:
   API_VERSION = '1'
   #DOMAIN_URL = 'http://localhost:8080'
-  DOMAIN_URL = 'https://' + API_VERSION + '.sensout-oscar.appspot.com'
+  DOMAIN_URL = 'https://' + API_VERSION + '-dot-sensout-oscar.appspot.com'
 
   def __init__(self, access_token):
     self.access_token = access_token
@@ -39,7 +39,7 @@ class Oscar:
 
   def get_job_hash(self, job):
     return str(hash(json.dumps(job)))
-  
+
   def get_job_id(self, job):
     return self.trial_ids[self.get_job_hash(job)]
 
