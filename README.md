@@ -6,9 +6,9 @@ This is the Python client for Oscar.
 Install
 -------
 
-	pip install git+git://github.com/sensout/Oscar-Python.git
+	pip install git+git://github.com/calldesk/Oscar-Python.git
 
 Usage
 -----
 
-Read the [docs](http://oscar.sensout.com/documentation.html) and have a look at [exemple.py](https://github.com/sensout/Oscar-Python/blob/master/example.py).
+Read the [docs](http://oscar.calldesk.fr/documentation.html) and have a look at [exemple.py](https://github.com/calldesk/Oscar-Python/blob/master/example.py).
